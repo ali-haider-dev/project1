@@ -41,34 +41,10 @@ export const setAuthCookie = (token) => {
   });
 };
 
-export const setUserData = (user) => {
-  // Store user data in localStorage
-  if (typeof window !== 'undefined') {
-    localStorage.setItem('user', JSON.stringify(user));
-  }
-};
-
-export const getUserData = () => {
-  // Retrieve user data from localStorage
-  if (typeof window !== 'undefined') {
-    const userData = localStorage.getItem('user');
-    return userData ? JSON.parse(userData) : null;
-  }
-  return null;
-};
-
-export const removeUserData = () => {
-  // Remove user data from localStorage
-  if (typeof window !== 'undefined') {
-    localStorage.removeItem('user');
-  }
-};
-
 export const getAuthToken = () => {
   return Cookies.get('token');
 };
 
 export const removeAuthCookie = () => {
   Cookies.remove('token');
-  removeUserData(); // Also remove user data
 };

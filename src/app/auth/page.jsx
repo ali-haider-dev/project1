@@ -3,16 +3,18 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAppSelector } from '@/store/hooks';
+import { selectIsAuthenticated } from '@/store/authSlice';
 import LoginForm from '@/components/LoginForm';
 import SignupForm from '@/components/SignupForm';
 
 export default function AuthPage() {
   const [isLogin, setIsLogin] = useState(true);
-  const { isAuthenticated } = useAppSelector((state) => state.auth);
+  const isAuthenticated = useAppSelector(selectIsAuthenticated);
   const router = useRouter();
 
+
   useEffect(() => {
-    // Redirect to dashboard if already logged in
+console.log("isAuthenticated authpage",isAuthenticated);
     if (isAuthenticated) {
       router.push('/dashboard');
     }
