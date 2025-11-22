@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "name": "Sarah Johnson",
+        "username": "sarahjohnson",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah"
+      },
+      "timestamp": "2025-01-22T14:30:00",
+      "description": "Just closed a massive trade on $BTC! 🚀 The technical indicators were screaming buy and I'm so glad I trusted my analysis. Remember folks, always do your own research and never invest more than you can afford to lose. #Bitcoin #CryptoTrading #TechnicalAnalysis",
+      "likes": 234,
+      "comments": 45,
+      "shares": 12
+    },
+    {
+      "id": 2,
+      "user": {
+        "name": "Michael Chen",
+        "username": "michaelchen",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Michael"
+      },
+      "timestamp": "2025-01-22T10:15:00",
+      "description": "Market update: Ethereum is showing strong support at the $2,200 level. 📊 I've been accumulating ETH over the past few weeks and the fundamentals look incredibly bullish. The upcoming network upgrades could be a major catalyst. What's your price target for ETH this quarter? Drop your predictions below! 👇 #Ethereum #ETH #Crypto",
+      "likes": 189,
+      "comments": 67,
+      "shares": 23
+    }
+  ]
+}

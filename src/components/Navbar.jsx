@@ -53,6 +53,29 @@ export const Navbar = () => {
             className="hidden md:flex items-center space-x-8"
           >
             <motion.a
+              href="/dashboard"
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              className="flex items-center gap-2 px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-orange-500 font-semibold transition-colors duration-300 relative group"
+            >
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                />
+              </svg>
+              Dashboard
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-instagram-gradient group-hover:w-full transition-all duration-300" />
+            </motion.a>
+
+            <motion.a
               href="/posts"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
@@ -227,6 +250,27 @@ export const Navbar = () => {
       {/* Mobile Navigation */}
       <div className="md:hidden border-t border-gray-200 dark:border-gray-800">
         <div className="flex items-center justify-around py-2">
+          <motion.a
+            href="/dashboard"
+            whileTap={{ scale: 0.95 }}
+            className="flex flex-col items-center gap-1 px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-orange-500 transition-colors duration-300"
+          >
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+              />
+            </svg>
+            <span className="text-xs font-medium">Dashboard</span>
+          </motion.a>
+
           <motion.a
             href="/posts"
             whileTap={{ scale: 0.95 }}

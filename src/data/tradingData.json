@@ -1,0 +1,44 @@
+{
+  "priceHistory": [
+    { "date": "2025-01-01", "price": 42500, "volume": 1250000000, "high": 43200, "low": 41800, "open": 42000, "close": 42500 },
+    { "date": "2025-01-02", "price": 43800, "volume": 1380000000, "high": 44500, "low": 42300, "open": 42500, "close": 43800 },
+    { "date": "2025-01-03", "price": 45200, "volume": 1520000000, "high": 46100, "low": 43500, "open": 43800, "close": 45200 },
+    { "date": "2025-01-04", "price": 44100, "volume": 1420000000, "high": 45800, "low": 43200, "open": 45200, "close": 44100 },
+    { "date": "2025-01-05", "price": 46500, "volume": 1680000000, "high": 47200, "low": 43900, "open": 44100, "close": 46500 },
+    { "date": "2025-01-06", "price": 48200, "volume": 1850000000, "high": 49100, "low": 45800, "open": 46500, "close": 48200 },
+    { "date": "2025-01-07", "price": 47800, "volume": 1720000000, "high": 49500, "low": 46900, "open": 48200, "close": 47800 },
+    { "date": "2025-01-08", "price": 49500, "volume": 1920000000, "high": 50800, "low": 47200, "open": 47800, "close": 49500 },
+    { "date": "2025-01-09", "price": 51200, "volume": 2100000000, "high": 52500, "low": 48800, "open": 49500, "close": 51200 },
+    { "date": "2025-01-10", "price": 50800, "volume": 1980000000, "high": 52800, "low": 49500, "open": 51200, "close": 50800 },
+    { "date": "2025-01-11", "price": 52500, "volume": 2150000000, "high": 53800, "low": 50200, "open": 50800, "close": 52500 },
+    { "date": "2025-01-12", "price": 54100, "volume": 2280000000, "high": 55200, "low": 51900, "open": 52500, "close": 54100 },
+    { "date": "2025-01-13", "price": 53200, "volume": 2050000000, "high": 55500, "low": 52100, "open": 54100, "close": 53200 },
+    { "date": "2025-01-14", "price": 55800, "volume": 2380000000, "high": 57100, "low": 52800, "open": 53200, "close": 55800 },
+    { "date": "2025-01-15", "price": 57200, "volume": 2520000000, "high": 58500, "low": 55100, "open": 55800, "close": 57200 },
+    { "date": "2025-01-16", "price": 56500, "volume": 2420000000, "high": 58800, "low": 55200, "open": 57200, "close": 56500 },
+    { "date": "2025-01-17", "price": 58800, "volume": 2680000000, "high": 60200, "low": 56100, "open": 56500, "close": 58800 },
+    { "date": "2025-01-18", "price": 60500, "volume": 2850000000, "high": 62100, "low": 58200, "open": 58800, "close": 60500 },
+    { "date": "2025-01-19", "price": 59800, "volume": 2720000000, "high": 62500, "low": 58500, "open": 60500, "close": 59800 },
+    { "date": "2025-01-20", "price": 62100, "volume": 2950000000, "high": 63800, "low": 59200, "open": 59800, "close": 62100 }
+  ],
+  "portfolioStats": {
+    "totalValue": 125000,
+    "dailyChange": 3250,
+    "dailyChangePercent": 2.67,
+    "totalProfit": 25000,
+    "totalProfitPercent": 25.0
+  },
+  "assets": [
+    { "name": "Bitcoin", "symbol": "BTC", "amount": 1.5, "value": 93150, "change": 2.5 },
+    { "name": "Ethereum", "symbol": "ETH", "amount": 8.2, "value": 18450, "change": -1.2 },
+    { "name": "Solana", "symbol": "SOL", "amount": 45, "value": 8100, "change": 5.8 },
+    { "name": "Cardano", "symbol": "ADA", "amount": 1200, "value": 5300, "change": 1.3 }
+  ],
+  "recentTrades": [
+    { "id": 1, "type": "buy", "asset": "BTC", "amount": 0.5, "price": 62100, "total": 31050, "date": "2025-01-20T14:30:00" },
+    { "id": 2, "type": "sell", "asset": "ETH", "amount": 2.0, "price": 2250, "total": 4500, "date": "2025-01-20T12:15:00" },
+    { "id": 3, "type": "buy", "asset": "SOL", "amount": 15, "price": 180, "total": 2700, "date": "2025-01-19T16:45:00" },
+    { "id": 4, "type": "buy", "asset": "ADA", "amount": 500, "price": 4.42, "total": 2210, "date": "2025-01-19T10:20:00" },
+    { "id": 5, "type": "sell", "asset": "BTC", "amount": 0.3, "price": 59800, "total": 17940, "date": "2025-01-18T15:00:00" }
+  ]
+}
