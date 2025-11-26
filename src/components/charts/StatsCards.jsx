@@ -86,7 +86,7 @@ export function StatsCards({ stats }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: index * 0.1 }}
           whileHover={{ y: -5, transition: { duration: 0.2 } }}
-          className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg rounded-2xl p-6 shadow-2xl hover:shadow-pink-500/20 transition-all duration-300"
+          className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg rounded-2xl p-6 shadow-2xl hover:shadow-primary/20 transition-all duration-300"
         >
           <div className="flex items-start justify-between mb-4">
             <div

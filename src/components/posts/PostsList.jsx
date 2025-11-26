@@ -24,7 +24,7 @@ export function PostsList({ posts, title = "Recent Posts" }) {
         className="mb-6"
       >
         <h2 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2 flex items-center gap-3">
-          <div className="w-10 h-10 rounded-xl bg-instagram-gradient flex items-center justify-center">
+          <div className="w-10 h-10 rounded-xl bg-primary-gradient flex items-center justify-center">
             <svg
               className="w-6 h-6 text-white"
               fill="none"
@@ -69,7 +69,7 @@ export function PostsList({ posts, title = "Recent Posts" }) {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-8 py-3 bg-instagram-gradient text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+            className="px-8 py-3 bg-primary-gradient text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
           >
             Load More Posts
           </motion.button>

@@ -62,10 +62,10 @@ export function CandlestickChart({ data, title = "Candlestick Chart" }) {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.1 }}
-      className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg rounded-2xl p-6 shadow-2xl hover:shadow-pink-500/20 transition-all duration-300"
+      className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg rounded-2xl p-6 shadow-2xl hover:shadow-primary/20 transition-all duration-300"
     >
       <h3 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 flex items-center gap-3">
-        <div className="w-10 h-10 rounded-xl bg-instagram-gradient flex items-center justify-center">
+        <div className="w-10 h-10 rounded-xl bg-primary-gradient flex items-center justify-center">
           <svg
             className="w-6 h-6 text-white"
             fill="none"

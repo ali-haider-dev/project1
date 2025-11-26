@@ -30,11 +30,11 @@ export function PostCard({ post }) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
       whileHover={{ y: -2, transition: { duration: 0.2 } }}
-      className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg rounded-2xl p-6 shadow-2xl hover:shadow-pink-500/20 transition-all duration-300"
+      className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg rounded-2xl p-6 shadow-2xl hover:shadow-primary/20 transition-all duration-300"
     >
       {/* User Info Header */}
       <div className="flex items-center gap-3 mb-4">
-        <div className="relative w-12 h-12 rounded-full overflow-hidden bg-gradient-to-br from-pink-500 to-orange-500 p-0.5">
+        <div className="relative w-12 h-12 rounded-full overflow-hidden bg-gradient-to-br from-primary to-primary-light p-0.5">
           <div className="w-full h-full rounded-full overflow-hidden bg-white dark:bg-gray-900">
             <img
               src={post.user.avatar}
@@ -45,7 +45,7 @@ export function PostCard({ post }) {
         </div>
 
         <div className="flex-1">
-          <h4 className="font-bold text-gray-900 dark:text-gray-100 hover:text-pink-600 dark:hover:text-orange-500 transition-colors cursor-pointer">
+          <h4 className="font-bold text-gray-900 dark:text-gray-100 hover:text-primary-light transition-colors cursor-pointer">
             {post.user.name}
           </h4>
           <p className="text-sm text-gray-600 dark:text-gray-400">
@@ -82,7 +82,7 @@ export function PostCard({ post }) {
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-pink-600 dark:hover:text-pink-500 transition-colors group"
+          className="flex items-center gap-2 text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary-light transition-colors group"
         >
           <svg
             className="w-5 h-5"

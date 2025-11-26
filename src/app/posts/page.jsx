@@ -27,7 +27,7 @@ export default function PostsPage() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-instagram-gradient p-4 md:p-8">
+      <div className="min-h-screen bg-dark-gradient p-4 md:p-8">
         <div className="max-w-4xl mx-auto">
           {/* Page Header */}
           <motion.div
@@ -37,7 +37,7 @@ export default function PostsPage() {
             className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg rounded-2xl p-6 md:p-8 mb-8 shadow-2xl"
           >
             <div className="flex items-center gap-4">
-              <div className="w-16 h-16 rounded-xl bg-instagram-gradient flex items-center justify-center">
+              <div className="w-16 h-16 rounded-xl bg-primary-gradient flex items-center justify-center">
                 <svg
                   className="w-8 h-8 text-white"
                   fill="none"
@@ -53,7 +53,7 @@ export default function PostsPage() {
                 </svg>
               </div>
               <div>
-                <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-gray-100 mb-1">
+                <h1 className="text-3xl md:text-4xl font-bold bg-primary-gradient bg-clip-text text-transparent mb-1">
                   Community Feed
                 </h1>
                 <p className="text-gray-600 dark:text-gray-400">
@@ -73,13 +73,13 @@ export default function PostsPage() {
               className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg rounded-2xl p-6 mb-8 shadow-2xl"
             >
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 rounded-full bg-instagram-gradient flex items-center justify-center text-white font-bold text-lg">
+                <div className="w-12 h-12 rounded-full bg-primary-gradient flex items-center justify-center text-white font-bold text-lg">
                   {user.name.charAt(0).toUpperCase()}
                 </div>
                 <input
                   type="text"
                   placeholder="Share your trading insights..."
-                  className="flex-1 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-pink-500 dark:focus:ring-orange-500 transition-all"
+                  className="flex-1 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-primary transition-all"
                   readOnly
                 />
               </div>
@@ -146,7 +146,7 @@ export default function PostsPage() {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="px-6 py-2 bg-instagram-gradient text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+                  className="px-6 py-2 bg-primary-gradient text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
                 >
                   Post
                 </motion.button>

@@ -40,7 +40,7 @@ export const Navbar = () => {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="flex-shrink-0"
           >
-            <h1 className="text-2xl font-bold bg-instagram-gradient bg-clip-text text-transparent cursor-pointer hover:scale-105 transition-transform duration-300">
+            <h1 className="text-2xl font-bold bg-primary-gradient bg-clip-text text-transparent cursor-pointer hover:scale-105 transition-transform duration-300">
               MyProject
             </h1>
           </motion.div>
@@ -56,7 +56,7 @@ export const Navbar = () => {
               href="/dashboard"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-orange-500 font-semibold transition-colors duration-300 relative group"
+              className="flex items-center gap-2 px-4 py-2 text-gray-300 hover:text-primary-light font-semibold transition-colors duration-300 relative group"
             >
               <svg
                 className="w-5 h-5"
@@ -72,14 +72,14 @@ export const Navbar = () => {
                 />
               </svg>
               Dashboard
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-instagram-gradient group-hover:w-full transition-all duration-300" />
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-gradient group-hover:w-full transition-all duration-300" />
             </motion.a>
 
             <motion.a
               href="/posts"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-orange-500 font-semibold transition-colors duration-300 relative group"
+              className="flex items-center gap-2 px-4 py-2 text-gray-300 hover:text-primary-light font-semibold transition-colors duration-300 relative group"
             >
               <svg
                 className="w-5 h-5"
@@ -95,14 +95,14 @@ export const Navbar = () => {
                 />
               </svg>
               Posts
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-instagram-gradient group-hover:w-full transition-all duration-300" />
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-gradient group-hover:w-full transition-all duration-300" />
             </motion.a>
 
             <motion.a
               href="/signals"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-orange-500 font-semibold transition-colors duration-300 relative group"
+              className="flex items-center gap-2 px-4 py-2 text-gray-300 hover:text-primary-light font-semibold transition-colors duration-300 relative group"
             >
               <svg
                 className="w-5 h-5"
@@ -118,7 +118,7 @@ export const Navbar = () => {
                 />
               </svg>
               Signals
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-instagram-gradient group-hover:w-full transition-all duration-300" />
+              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary-gradient group-hover:w-full transition-all duration-300" />
             </motion.a>
           </motion.div>
 
@@ -138,7 +138,7 @@ export const Navbar = () => {
               className="flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors duration-300"
             >
               {/* Avatar */}
-              <div className="w-10 h-10 rounded-full bg-instagram-gradient flex items-center justify-center text-white font-bold shadow-lg">
+              <div className="w-10 h-10 rounded-full bg-primary-gradient flex items-center justify-center text-white font-bold shadow-lg">
                 {user.name.charAt(0).toUpperCase()}
               </div>
 
@@ -198,7 +198,7 @@ export const Navbar = () => {
                         x: 5,
                         backgroundColor: "rgba(236, 72, 153, 0.1)",
                       }}
-                      className="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-orange-500 transition-colors duration-200"
+                      className="flex items-center gap-3 px-4 py-2.5 text-sm text-gray-300 hover:text-primary-light transition-colors duration-200"
                     >
                       <svg
                         className="w-5 h-5"
@@ -253,7 +253,7 @@ export const Navbar = () => {
           <motion.a
             href="/dashboard"
             whileTap={{ scale: 0.95 }}
-            className="flex flex-col items-center gap-1 px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-orange-500 transition-colors duration-300"
+            className="flex flex-col items-center gap-1 px-3 py-2 text-gray-300 hover:text-primary-light transition-colors duration-300"
           >
             <svg
               className="w-6 h-6"
@@ -274,7 +274,7 @@ export const Navbar = () => {
           <motion.a
             href="/posts"
             whileTap={{ scale: 0.95 }}
-            className="flex flex-col items-center gap-1 px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-orange-500 transition-colors duration-300"
+            className="flex flex-col items-center gap-1 px-3 py-2 text-gray-300 hover:text-primary-light transition-colors duration-300"
           >
             <svg
               className="w-6 h-6"
@@ -295,7 +295,7 @@ export const Navbar = () => {
           <motion.a
             href="/signals"
             whileTap={{ scale: 0.95 }}
-            className="flex flex-col items-center gap-1 px-3 py-2 text-gray-700 dark:text-gray-300 hover:text-pink-600 dark:hover:text-orange-500 transition-colors duration-300"
+            className="flex flex-col items-center gap-1 px-3 py-2 text-gray-300 hover:text-primary-light transition-colors duration-300"
           >
             <svg
               className="w-6 h-6"

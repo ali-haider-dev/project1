@@ -50,7 +50,7 @@ export default function DashboardPage() {
   return (
     <>
       <Navbar />
-      <div className="min-h-screen bg-instagram-gradient p-4 md:p-8">
+      <div className="min-h-screen bg-dark-gradient p-4 md:p-8">
         <div className="max-w-7xl mx-auto">
           <motion.main
             variants={containerVariants}
@@ -63,7 +63,7 @@ export default function DashboardPage() {
               className="bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg rounded-2xl p-6 md:p-8 mb-8 shadow-2xl"
             >
               <div className="flex items-center gap-6 flex-wrap">
-                <div className="w-20 h-20 rounded-full bg-instagram-gradient flex items-center justify-center text-3xl font-bold text-white flex-shrink-0">
+                <div className="w-20 h-20 rounded-full bg-primary-gradient flex items-center justify-center text-3xl font-bold text-white flex-shrink-0">
                   {user.name.charAt(0).toUpperCase()}
                 </div>
                 <div>
