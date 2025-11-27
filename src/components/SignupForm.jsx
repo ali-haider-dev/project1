@@ -12,7 +12,7 @@ export default function SignupForm({ onToggleForm }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
-  const [role, setRole] = useState("user");
+  const [role, setRole] = useState("trader");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const dispatch = useAppDispatch();
@@ -242,9 +242,9 @@ export default function SignupForm({ onToggleForm }) {
               required
               disabled={loading}
             >
-              <option value="user">User</option>
+              <option value="trader">Trader</option>
               <option value="admin">Admin</option>
-              <option value="publisher">Publisher</option>
+              <option value="mentor">Mentor</option>
             </select>
           </motion.div>
 

@@ -64,8 +64,8 @@ export default function PostsPage() {
             </div>
           </motion.div>
 
-          {/* Create Post Card - Only for Publishers */}
-          {user.role === "publisher" && (
+          {/* Create Post Card - Only for mentor */}
+          {user.role === "mentor" && (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
